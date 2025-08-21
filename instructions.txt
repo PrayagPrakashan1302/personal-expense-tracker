@@ -1,0 +1,10 @@
+Simple version
+1.Clone project.
+2.Create venv → python3 -m venv venv
+3.Activate venv → source venv/bin/activate
+4.Install deps → pip install -r requirements.txt
+5.Run server → uvicorn app.main:app --reload
+6.Open browser → http://127.0.0.1:8000/docs
+7.Use POST /expenses to add items.
+8.Use GET /summary for_date=YYYY-MM-DD to see total for that day.
+9.Delete app/expenses.db if you want a fresh start.
